@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC33DE231F6635B4000A3683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE221F6635B4000A3683 /* main.m */; };
+		CC33DE261F6635B4000A3683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE251F6635B4000A3683 /* AppDelegate.m */; };
+		CC33DE2E1F6635B4000A3683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC33DE2D1F6635B4000A3683 /* Assets.xcassets */; };
+		CC33DE311F6635B4000A3683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC33DE2F1F6635B4000A3683 /* LaunchScreen.storyboard */; };
+		CC33DE3C1F6635B4000A3683 /* MultiVCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE3B1F6635B4000A3683 /* MultiVCTestTests.m */; };
+		CC33DE471F6635B4000A3683 /* MultiVCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE461F6635B4000A3683 /* MultiVCTestUITests.m */; };
+		CC33DE5D1F6636D5000A3683 /* TJMultibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE5A1F6636D5000A3683 /* TJMultibleViewController.m */; };
+		CC33DE5E1F6636D5000A3683 /* TJContentOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE5C1F6636D5000A3683 /* TJContentOneViewController.m */; };
+		CC33DE651F6636E3000A3683 /* TJMutibleCollectionViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE601F6636E3000A3683 /* TJMutibleCollectionViewContrller.m */; };
+		CC33DE661F6636E3000A3683 /* TJOneVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE621F6636E3000A3683 /* TJOneVCController.m */; };
+		CC33DE671F6636E3000A3683 /* TJHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE641F6636E3000A3683 /* TJHeaderVC.m */; };
+		CC33DE701F6636F3000A3683 /* TourModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE691F6636F3000A3683 /* TourModel.m */; };
+		CC33DE711F6636F3000A3683 /* TJOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE6B1F6636F3000A3683 /* TJOneModel.m */; };
+		CC33DE721F6636F3000A3683 /* TourCellPrensent.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE6D1F6636F3000A3683 /* TourCellPrensent.m */; };
+		CC33DE731F6636F3000A3683 /* TJTourTabPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE6F1F6636F3000A3683 /* TJTourTabPresenter.m */; };
+		CC33DE761F663724000A3683 /* TJTestHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE751F663724000A3683 /* TJTestHeaderView.m */; };
+		CC33DE791F66373F000A3683 /* TJOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE781F66373F000A3683 /* TJOneTableViewCell.m */; };
+		CC33DE7C1F66374D000A3683 /* UIView+HSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE7B1F66374D000A3683 /* UIView+HSExtension.m */; };
+		CC33DE7F1F663770000A3683 /* TJTestNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE7E1F663770000A3683 /* TJTestNavigationController.m */; };
+		CC33DE821F6637E2000A3683 /* TJTestTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE811F6637E2000A3683 /* TJTestTableHeaderView.m */; };
+		CC33DE851F66382C000A3683 /* TJTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC33DE841F66382C000A3683 /* TJTestTableViewCell.m */; };
+		F41C2C2C5439FB26A5B5EF16 /* libPods-MultiVCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3671B8A4C89210EF59B1CB0A /* libPods-MultiVCTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC33DE381F6635B4000A3683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC33DE161F6635B4000A3683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC33DE1D1F6635B4000A3683;
+			remoteInfo = MultiVCTest;
+		};
+		CC33DE431F6635B4000A3683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC33DE161F6635B4000A3683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC33DE1D1F6635B4000A3683;
+			remoteInfo = MultiVCTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184F99D5FE784FB38A4EE53C /* Pods-MultiVCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiVCTest/Pods-MultiVCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3671B8A4C89210EF59B1CB0A /* libPods-MultiVCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MultiVCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5388E61B52837FF436851E20 /* Pods-MultiVCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiVCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiVCTest/Pods-MultiVCTest.release.xcconfig"; sourceTree = "<group>"; };
+		CC33DE1E1F6635B4000A3683 /* MultiVCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiVCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC33DE221F6635B4000A3683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC33DE241F6635B4000A3683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC33DE251F6635B4000A3683 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC33DE2D1F6635B4000A3683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC33DE301F6635B4000A3683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC33DE321F6635B4000A3683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC33DE371F6635B4000A3683 /* MultiVCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiVCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC33DE3B1F6635B4000A3683 /* MultiVCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiVCTestTests.m; sourceTree = "<group>"; };
+		CC33DE3D1F6635B4000A3683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC33DE421F6635B4000A3683 /* MultiVCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiVCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC33DE461F6635B4000A3683 /* MultiVCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiVCTestUITests.m; sourceTree = "<group>"; };
+		CC33DE481F6635B4000A3683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC33DE591F6636D5000A3683 /* TJMultibleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJMultibleViewController.h; sourceTree = "<group>"; };
+		CC33DE5A1F6636D5000A3683 /* TJMultibleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJMultibleViewController.m; sourceTree = "<group>"; };
+		CC33DE5B1F6636D5000A3683 /* TJContentOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJContentOneViewController.h; sourceTree = "<group>"; };
+		CC33DE5C1F6636D5000A3683 /* TJContentOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJContentOneViewController.m; sourceTree = "<group>"; };
+		CC33DE5F1F6636E3000A3683 /* TJMutibleCollectionViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJMutibleCollectionViewContrller.h; sourceTree = "<group>"; };
+		CC33DE601F6636E3000A3683 /* TJMutibleCollectionViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJMutibleCollectionViewContrller.m; sourceTree = "<group>"; };
+		CC33DE611F6636E3000A3683 /* TJOneVCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJOneVCController.h; sourceTree = "<group>"; };
+		CC33DE621F6636E3000A3683 /* TJOneVCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJOneVCController.m; sourceTree = "<group>"; };
+		CC33DE631F6636E3000A3683 /* TJHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJHeaderVC.h; sourceTree = "<group>"; };
+		CC33DE641F6636E3000A3683 /* TJHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJHeaderVC.m; sourceTree = "<group>"; };
+		CC33DE681F6636F3000A3683 /* TourModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourModel.h; sourceTree = "<group>"; };
+		CC33DE691F6636F3000A3683 /* TourModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourModel.m; sourceTree = "<group>"; };
+		CC33DE6A1F6636F3000A3683 /* TJOneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJOneModel.h; sourceTree = "<group>"; };
+		CC33DE6B1F6636F3000A3683 /* TJOneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJOneModel.m; sourceTree = "<group>"; };
+		CC33DE6C1F6636F3000A3683 /* TourCellPrensent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourCellPrensent.h; sourceTree = "<group>"; };
+		CC33DE6D1F6636F3000A3683 /* TourCellPrensent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourCellPrensent.m; sourceTree = "<group>"; };
+		CC33DE6E1F6636F3000A3683 /* TJTourTabPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJTourTabPresenter.h; sourceTree = "<group>"; };
+		CC33DE6F1F6636F3000A3683 /* TJTourTabPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJTourTabPresenter.m; sourceTree = "<group>"; };
+		CC33DE741F663724000A3683 /* TJTestHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJTestHeaderView.h; sourceTree = "<group>"; };
+		CC33DE751F663724000A3683 /* TJTestHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJTestHeaderView.m; sourceTree = "<group>"; };
+		CC33DE771F66373F000A3683 /* TJOneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJOneTableViewCell.h; sourceTree = "<group>"; };
+		CC33DE781F66373F000A3683 /* TJOneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJOneTableViewCell.m; sourceTree = "<group>"; };
+		CC33DE7A1F66374D000A3683 /* UIView+HSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HSExtension.h"; sourceTree = "<group>"; };
+		CC33DE7B1F66374D000A3683 /* UIView+HSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HSExtension.m"; sourceTree = "<group>"; };
+		CC33DE7D1F663770000A3683 /* TJTestNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJTestNavigationController.h; sourceTree = "<group>"; };
+		CC33DE7E1F663770000A3683 /* TJTestNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJTestNavigationController.m; sourceTree = "<group>"; };
+		CC33DE801F6637E2000A3683 /* TJTestTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJTestTableHeaderView.h; sourceTree = "<group>"; };
+		CC33DE811F6637E2000A3683 /* TJTestTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJTestTableHeaderView.m; sourceTree = "<group>"; };
+		CC33DE831F66382C000A3683 /* TJTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJTestTableViewCell.h; sourceTree = "<group>"; };
+		CC33DE841F66382C000A3683 /* TJTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJTestTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC33DE1B1F6635B4000A3683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41C2C2C5439FB26A5B5EF16 /* libPods-MultiVCTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC33DE341F6635B4000A3683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC33DE3F1F6635B4000A3683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DE836A0421D7831D42F1B5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3671B8A4C89210EF59B1CB0A /* libPods-MultiVCTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78E33F087991008B3A280134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				184F99D5FE784FB38A4EE53C /* Pods-MultiVCTest.debug.xcconfig */,
+				5388E61B52837FF436851E20 /* Pods-MultiVCTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC33DE151F6635B4000A3683 = {
+			isa = PBXGroup;
+			children = (
+				CC33DE201F6635B4000A3683 /* MultiVCTest */,
+				CC33DE3A1F6635B4000A3683 /* MultiVCTestTests */,
+				CC33DE451F6635B4000A3683 /* MultiVCTestUITests */,
+				CC33DE1F1F6635B4000A3683 /* Products */,
+				78E33F087991008B3A280134 /* Pods */,
+				0DE836A0421D7831D42F1B5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC33DE1F1F6635B4000A3683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE1E1F6635B4000A3683 /* MultiVCTest.app */,
+				CC33DE371F6635B4000A3683 /* MultiVCTestTests.xctest */,
+				CC33DE421F6635B4000A3683 /* MultiVCTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC33DE201F6635B4000A3683 /* MultiVCTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE541F6636B5000A3683 /* Classes */,
+				CC33DE211F6635B4000A3683 /* Supporting Files */,
+			);
+			path = MultiVCTest;
+			sourceTree = "<group>";
+		};
+		CC33DE211F6635B4000A3683 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE241F6635B4000A3683 /* AppDelegate.h */,
+				CC33DE251F6635B4000A3683 /* AppDelegate.m */,
+				CC33DE7D1F663770000A3683 /* TJTestNavigationController.h */,
+				CC33DE7E1F663770000A3683 /* TJTestNavigationController.m */,
+				CC33DE2D1F6635B4000A3683 /* Assets.xcassets */,
+				CC33DE2F1F6635B4000A3683 /* LaunchScreen.storyboard */,
+				CC33DE321F6635B4000A3683 /* Info.plist */,
+				CC33DE221F6635B4000A3683 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC33DE3A1F6635B4000A3683 /* MultiVCTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE3B1F6635B4000A3683 /* MultiVCTestTests.m */,
+				CC33DE3D1F6635B4000A3683 /* Info.plist */,
+			);
+			path = MultiVCTestTests;
+			sourceTree = "<group>";
+		};
+		CC33DE451F6635B4000A3683 /* MultiVCTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE461F6635B4000A3683 /* MultiVCTestUITests.m */,
+				CC33DE481F6635B4000A3683 /* Info.plist */,
+			);
+			path = MultiVCTestUITests;
+			sourceTree = "<group>";
+		};
+		CC33DE541F6636B5000A3683 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE571F6636B5000A3683 /* Scene */,
+				CC33DE551F6636B5000A3683 /* Controller */,
+				CC33DE561F6636B5000A3683 /* Model */,
+				CC33DE581F6636B5000A3683 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC33DE551F6636B5000A3683 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE5F1F6636E3000A3683 /* TJMutibleCollectionViewContrller.h */,
+				CC33DE601F6636E3000A3683 /* TJMutibleCollectionViewContrller.m */,
+				CC33DE611F6636E3000A3683 /* TJOneVCController.h */,
+				CC33DE621F6636E3000A3683 /* TJOneVCController.m */,
+				CC33DE631F6636E3000A3683 /* TJHeaderVC.h */,
+				CC33DE641F6636E3000A3683 /* TJHeaderVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CC33DE561F6636B5000A3683 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE681F6636F3000A3683 /* TourModel.h */,
+				CC33DE691F6636F3000A3683 /* TourModel.m */,
+				CC33DE6A1F6636F3000A3683 /* TJOneModel.h */,
+				CC33DE6B1F6636F3000A3683 /* TJOneModel.m */,
+				CC33DE6C1F6636F3000A3683 /* TourCellPrensent.h */,
+				CC33DE6D1F6636F3000A3683 /* TourCellPrensent.m */,
+				CC33DE6E1F6636F3000A3683 /* TJTourTabPresenter.h */,
+				CC33DE6F1F6636F3000A3683 /* TJTourTabPresenter.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC33DE571F6636B5000A3683 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE591F6636D5000A3683 /* TJMultibleViewController.h */,
+				CC33DE5A1F6636D5000A3683 /* TJMultibleViewController.m */,
+				CC33DE5B1F6636D5000A3683 /* TJContentOneViewController.h */,
+				CC33DE5C1F6636D5000A3683 /* TJContentOneViewController.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CC33DE581F6636B5000A3683 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC33DE771F66373F000A3683 /* TJOneTableViewCell.h */,
+				CC33DE781F66373F000A3683 /* TJOneTableViewCell.m */,
+				CC33DE741F663724000A3683 /* TJTestHeaderView.h */,
+				CC33DE751F663724000A3683 /* TJTestHeaderView.m */,
+				CC33DE7A1F66374D000A3683 /* UIView+HSExtension.h */,
+				CC33DE7B1F66374D000A3683 /* UIView+HSExtension.m */,
+				CC33DE801F6637E2000A3683 /* TJTestTableHeaderView.h */,
+				CC33DE811F6637E2000A3683 /* TJTestTableHeaderView.m */,
+				CC33DE831F66382C000A3683 /* TJTestTableViewCell.h */,
+				CC33DE841F66382C000A3683 /* TJTestTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC33DE1D1F6635B4000A3683 /* MultiVCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC33DE4B1F6635B4000A3683 /* Build configuration list for PBXNativeTarget "MultiVCTest" */;
+			buildPhases = (
+				DB5C48E72C975975473603D6 /* [CP] Check Pods Manifest.lock */,
+				CC33DE1A1F6635B4000A3683 /* Sources */,
+				CC33DE1B1F6635B4000A3683 /* Frameworks */,
+				CC33DE1C1F6635B4000A3683 /* Resources */,
+				74DD43350FD342722C0B205F /* [CP] Embed Pods Frameworks */,
+				AF0E7F4E2C844519AA5C84F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiVCTest;
+			productName = MultiVCTest;
+			productReference = CC33DE1E1F6635B4000A3683 /* MultiVCTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC33DE361F6635B4000A3683 /* MultiVCTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC33DE4E1F6635B4000A3683 /* Build configuration list for PBXNativeTarget "MultiVCTestTests" */;
+			buildPhases = (
+				CC33DE331F6635B4000A3683 /* Sources */,
+				CC33DE341F6635B4000A3683 /* Frameworks */,
+				CC33DE351F6635B4000A3683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC33DE391F6635B4000A3683 /* PBXTargetDependency */,
+			);
+			name = MultiVCTestTests;
+			productName = MultiVCTestTests;
+			productReference = CC33DE371F6635B4000A3683 /* MultiVCTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC33DE411F6635B4000A3683 /* MultiVCTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC33DE511F6635B4000A3683 /* Build configuration list for PBXNativeTarget "MultiVCTestUITests" */;
+			buildPhases = (
+				CC33DE3E1F6635B4000A3683 /* Sources */,
+				CC33DE3F1F6635B4000A3683 /* Frameworks */,
+				CC33DE401F6635B4000A3683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC33DE441F6635B4000A3683 /* PBXTargetDependency */,
+			);
+			name = MultiVCTestUITests;
+			productName = MultiVCTestUITests;
+			productReference = CC33DE421F6635B4000A3683 /* MultiVCTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC33DE161F6635B4000A3683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					CC33DE1D1F6635B4000A3683 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P9NB742N24;
+						ProvisioningStyle = Automatic;
+					};
+					CC33DE361F6635B4000A3683 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P9NB742N24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC33DE1D1F6635B4000A3683;
+					};
+					CC33DE411F6635B4000A3683 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P9NB742N24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC33DE1D1F6635B4000A3683;
+					};
+				};
+			};
+			buildConfigurationList = CC33DE191F6635B4000A3683 /* Build configuration list for PBXProject "MultiVCTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC33DE151F6635B4000A3683;
+			productRefGroup = CC33DE1F1F6635B4000A3683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC33DE1D1F6635B4000A3683 /* MultiVCTest */,
+				CC33DE361F6635B4000A3683 /* MultiVCTestTests */,
+				CC33DE411F6635B4000A3683 /* MultiVCTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC33DE1C1F6635B4000A3683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33DE311F6635B4000A3683 /* LaunchScreen.storyboard in Resources */,
+				CC33DE2E1F6635B4000A3683 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC33DE351F6635B4000A3683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC33DE401F6635B4000A3683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74DD43350FD342722C0B205F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiVCTest/Pods-MultiVCTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0E7F4E2C844519AA5C84F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiVCTest/Pods-MultiVCTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5C48E72C975975473603D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC33DE1A1F6635B4000A3683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33DE261F6635B4000A3683 /* AppDelegate.m in Sources */,
+				CC33DE7C1F66374D000A3683 /* UIView+HSExtension.m in Sources */,
+				CC33DE701F6636F3000A3683 /* TourModel.m in Sources */,
+				CC33DE661F6636E3000A3683 /* TJOneVCController.m in Sources */,
+				CC33DE731F6636F3000A3683 /* TJTourTabPresenter.m in Sources */,
+				CC33DE851F66382C000A3683 /* TJTestTableViewCell.m in Sources */,
+				CC33DE5E1F6636D5000A3683 /* TJContentOneViewController.m in Sources */,
+				CC33DE231F6635B4000A3683 /* main.m in Sources */,
+				CC33DE671F6636E3000A3683 /* TJHeaderVC.m in Sources */,
+				CC33DE761F663724000A3683 /* TJTestHeaderView.m in Sources */,
+				CC33DE7F1F663770000A3683 /* TJTestNavigationController.m in Sources */,
+				CC33DE721F6636F3000A3683 /* TourCellPrensent.m in Sources */,
+				CC33DE791F66373F000A3683 /* TJOneTableViewCell.m in Sources */,
+				CC33DE821F6637E2000A3683 /* TJTestTableHeaderView.m in Sources */,
+				CC33DE651F6636E3000A3683 /* TJMutibleCollectionViewContrller.m in Sources */,
+				CC33DE711F6636F3000A3683 /* TJOneModel.m in Sources */,
+				CC33DE5D1F6636D5000A3683 /* TJMultibleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC33DE331F6635B4000A3683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33DE3C1F6635B4000A3683 /* MultiVCTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC33DE3E1F6635B4000A3683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC33DE471F6635B4000A3683 /* MultiVCTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC33DE391F6635B4000A3683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC33DE1D1F6635B4000A3683 /* MultiVCTest */;
+			targetProxy = CC33DE381F6635B4000A3683 /* PBXContainerItemProxy */;
+		};
+		CC33DE441F6635B4000A3683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC33DE1D1F6635B4000A3683 /* MultiVCTest */;
+			targetProxy = CC33DE431F6635B4000A3683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC33DE2F1F6635B4000A3683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC33DE301F6635B4000A3683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC33DE491F6635B4000A3683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC33DE4A1F6635B4000A3683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC33DE4C1F6635B4000A3683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184F99D5FE784FB38A4EE53C /* Pods-MultiVCTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9NB742N24;
+				INFOPLIST_FILE = MultiVCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikuaime.wwww.MultiVCTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC33DE4D1F6635B4000A3683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5388E61B52837FF436851E20 /* Pods-MultiVCTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P9NB742N24;
+				INFOPLIST_FILE = MultiVCTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikuaime.wwww.MultiVCTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC33DE4F1F6635B4000A3683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P9NB742N24;
+				INFOPLIST_FILE = MultiVCTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikuaime.wwww.MultiVCTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiVCTest.app/MultiVCTest";
+			};
+			name = Debug;
+		};
+		CC33DE501F6635B4000A3683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P9NB742N24;
+				INFOPLIST_FILE = MultiVCTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikuaime.wwww.MultiVCTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiVCTest.app/MultiVCTest";
+			};
+			name = Release;
+		};
+		CC33DE521F6635B4000A3683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P9NB742N24;
+				INFOPLIST_FILE = MultiVCTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikuaime.wwww.MultiVCTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiVCTest;
+			};
+			name = Debug;
+		};
+		CC33DE531F6635B4000A3683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P9NB742N24;
+				INFOPLIST_FILE = MultiVCTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yikuaime.wwww.MultiVCTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiVCTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC33DE191F6635B4000A3683 /* Build configuration list for PBXProject "MultiVCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33DE491F6635B4000A3683 /* Debug */,
+				CC33DE4A1F6635B4000A3683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC33DE4B1F6635B4000A3683 /* Build configuration list for PBXNativeTarget "MultiVCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33DE4C1F6635B4000A3683 /* Debug */,
+				CC33DE4D1F6635B4000A3683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC33DE4E1F6635B4000A3683 /* Build configuration list for PBXNativeTarget "MultiVCTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33DE4F1F6635B4000A3683 /* Debug */,
+				CC33DE501F6635B4000A3683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC33DE511F6635B4000A3683 /* Build configuration list for PBXNativeTarget "MultiVCTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33DE521F6635B4000A3683 /* Debug */,
+				CC33DE531F6635B4000A3683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC33DE161F6635B4000A3683 /* Project object */;
+}
